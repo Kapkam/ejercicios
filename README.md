@@ -1,0 +1,2 @@
+# ejercicos
+zubiri_manteo
