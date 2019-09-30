@@ -18,7 +18,6 @@
     // número y tantas columnas como indique el segundo parámetro.
     $columnas = (int)$_POST['columnas'];
     $celdas = (int)$_POST['filas'];
-    celdasCol($columnas,$celdas)
     function celdasCol($a,$b){
       for ($i=0; $i < $b; $i++) {
         echo "<tr>";
@@ -28,6 +27,7 @@
         echo "</tr>";
       }
     }
+    celdasCol($columnas,$celdas)
      ?>
    </table>
   </body>
