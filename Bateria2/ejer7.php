@@ -15,9 +15,12 @@
         // Escribe una función para calcular potencias. Recibe como
         // argumentos la base y el exponente, que es opcional y tiene por
         // defecto 2 (elevar al cuadrado).
+        function ppotencia($numero){
+          $potencia = pow($numero,2);
+          echo "<h3>".var_export($potencia,true)."</h3>";
+        }
         $numero = $_POST['numero'];
-        $potencia = pow($numero,2);
-        echo "<h3>".var_export($potencia,true)."</h3>";
+        potencia($numero);
         ?>
   </body>
 </html>
