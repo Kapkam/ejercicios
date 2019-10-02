@@ -20,6 +20,7 @@
       // Importante debeís mostrarle al usuario una opción que no exista.
       function existe($file){
         if (file_exists($file)) {
+          include $file;
           echo "<h3 style='color:green;'> El fichero existe</h3>";
         }else {
           echo "<h3 style='color:red;'>ERROR, El fichero no existe</h3>";
